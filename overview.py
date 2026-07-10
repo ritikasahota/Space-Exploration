@@ -22,7 +22,7 @@ st.set_page_config(
 # ---------------------- LOAD DATA ----------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("c:\\Users\\sahot\\Downloads\\Global_Space_Exploration_Dataset (1).csv")
+    return pd.read_csv("Global_Space_Exploration_Dataset.csv")
 
 df = load_data()
 
